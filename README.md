@@ -2,11 +2,19 @@
 
 Repozytorium zawiera moje codzienne rozwiązania zadań z **FreeCodeCamp Daily Coding Challenges**.
 
-Każdy dzień posiada osobny katalog w formacie:
+## 📂 Każdy dzień posiada osobny katalog w formacie:
 
+```
 daily/
-     YYYY/ 
-       YYYY-MM-DD/
+  2025/
+    2025-11-24/
+      solution.py
+      solution.js
+    2025-11-25/
+      solution.py
+      solution.js
+```
+
 
 solution.py
 solution.js
@@ -20,3 +28,6 @@ solution.js
 - Rozwój umiejętności algorytmicznych i logicznych
 - Budowa portfolio
 
+## 📌 Uwagi
+
+- Treści zadań **nie są kopiowane** z FreeCodeCamp, zgodnie z zasadami platformy.  
