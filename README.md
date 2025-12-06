@@ -22,7 +22,7 @@ daily/
 - Głównie doskonalenie pythona i javascript 
 - Codzienna praca nad coding challenge
 - Rozwój umiejętności algorytmicznych i logicznych
-- Budowa portfolio
+- Budowa portfolio (pokazane umiejętności posługiwania się językiem programowania)
 
 ## 📌 Uwagi
 
