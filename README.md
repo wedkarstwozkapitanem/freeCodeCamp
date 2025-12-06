@@ -5,9 +5,7 @@ Repozytorium zawiera moje codzienne rozwiązania zadań z **FreeCodeCamp Daily C
 Każdy dzień posiada osobny katalog w formacie:
 
 daily/
-
      YYYY/ 
-   
        YYYY-MM-DD/
 
 solution.py
