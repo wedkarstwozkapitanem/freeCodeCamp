@@ -15,10 +15,6 @@ daily/
       solution.js
 ```
 
-
-solution.py
-solution.js
-
 ---
 
 ## 🎯 Cele
