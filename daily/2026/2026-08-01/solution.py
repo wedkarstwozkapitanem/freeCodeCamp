@@ -8,14 +8,13 @@
 
 
 def sprawdz_sumy(grid,suma_do_uzyskania):
-    if True in [sum(i) != suma_do_uzyskania for i in grid]:
+    if any(sum(i) != suma_do_uzyskania for i in grid) or any((grid[0][i] + grid[1][i] + grid[2][i]) != suma_do_uzyskania for i in range(len(grid[0]))):
         return False
 
-    if True in [(grid[0][i] + grid[1][i] + grid[2][i]) != suma_do_uzyskania for i in range(len(grid[0]))]:
+    if any([grid[0][0] + grid[1][1] + grid[2][2] != suma_do_uzyskania,grid[0][2] + grid[1][1] + grid[2][0] != suma_do_uzyskania]):
         return False
+    return True
 
-    if True in [grid[0][0] + grid[1][1] + grid[2][2],grid[0][2] + grid[1][1] + grid[2][0]] != suma_do_uzyskania:
-        return False
 
 def solve_magic_square(grid):
     brakujoca_liczba = 0
