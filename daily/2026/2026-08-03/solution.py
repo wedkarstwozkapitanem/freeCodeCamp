@@ -1,11 +1,3 @@
-"""
-  ==========================================
-  || FreeCodeCamp – Daily Coding Challenge ||
-  || Date: 2026-08-03                      ||
-  || Dominik Łempicki (kapitan)            ||
-  ==========================================
-"""
-
 def get_emoji_phrase(s):
     slownik = {
         "👶":"baby",
@@ -20,9 +12,6 @@ def get_emoji_phrase(s):
         "⭐":"star"
     }
 
-    wynik = str()
-    for i in s:
-        wynik += slownik[i] + " "
-    return wynik[:-1]
+    return " ".join([slownik[i] for i in s])
 
 print(get_emoji_phrase("⭐🐟"))
