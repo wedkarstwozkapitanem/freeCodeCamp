@@ -2,6 +2,9 @@
 
 Repozytorium zawiera moje codzienne rozwiązania zadań z **FreeCodeCamp Daily Coding Challenges**.
 
+Link do profilu FreeCodeCamp:
+### https://www.freecodecamp.org/dominik_kapitan
+
 ## 📂 Każdy dzień posiada osobny katalog w formacie:
 
 ```
