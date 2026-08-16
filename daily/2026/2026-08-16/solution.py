@@ -7,6 +7,6 @@
 """
 
 def are_anagrams(str1, str2):
-    str1 = sorted("".join(i.lower() for i in str1 if i != " "))
-    str2 = sorted("".join(i.lower() for i in str2 if i != " "))
+    str1 = sorted("".join(i.lower() for i in str1 if not i.isspace()))
+    str2 = sorted("".join(i.lower() for i in str2 if not i.isspace()))
     return str1 == str2
